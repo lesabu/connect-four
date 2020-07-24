@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Connect Four</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <aside id="info">
+            <header>
+                <h1>CONNECT FOUR</h1>
+            </header>
+            <section id="random-assemble">
+                <h2>RANDOM</h1>
+                <h2>ASSEMBLE IN</h1>
+
+                    <div id="countdown">
+                        <h3 class="number">
+                         10 sec
+                        </h3>
+                    </div>
+                    <!-- <button class='random-no' type="button" name="button">turn Off</button> -->
+
+
+            </section>
+            <footer>
+                <button id='new-game' type="button" name="button">RESTART GAME</button>
+            </footer>
+        </aside>
+        <section id="game">
+            <div id="game-wrap">
+                <div id="target-column">
+                    <div class="target-slots">
+                        <div class="target-circle player1 glow1"></div>
+                    </div>
+                    <div class="target-slots">
+                        <div class="target-circle"></div>
+                    </div>
+                    <div class="target-slots">
+                        <div class="target-circle"></div>
+                    </div>
+                    <div class="target-slots">
+                        <div class="target-circle"></div>
+                    </div>
+                    <div class="target-slots">
+                        <div class="target-circle"></div>
+                    </div>
+                    <div class="target-slots">
+                        <div class="target-circle"></div>
+                    </div>
+                    <div class="target-slots">
+                        <div class="target-circle"></div>
+                    </div>
+                </div>
+                <div id="board">
+                    <div class="column">
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                        <div class="slots">
+                            <div class="slot-circle"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <div id="refresh-game">
+            <div id="refresh-game-inner">
+                <h2>Are you sure you want to quit this game?</h2>
+                <button class='yes' type="button" name="button">Yes, start new Game</button>
+                <button class='no' type="button" name="button">No, I Changed my Mind</button>
+            </div>
+        </div>
+
+        <div id="winner">
+            <div id="winner-inner">
+                <div id="winner-token">
+                </div>
+                <button class='yes' type="button" name="button">Start new Game</button>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
