@@ -26,14 +26,13 @@ Here are several ideas to make the game more interesting if you have the time
 4. Allow players at the beginning of the game to increase the number of columns on the board and the number of connected pieces that are required to win
 5. Allow a single player to play against the computer
 
----
-
 ## Timeframe
 
-We started the assignment on Friday and had a small presentation on Monday.
+We started the assignment on Friday and had a small presentation on the following Monday.
 
 ## The Result:
 
 This is what I have achieved: https://lesabu.github.io/connect-four/
-The game is not really mobile friendly, since it was a quite short timeframe.
-I would say it looks best on Desktop around 1230 x 639 😜
+The game is not really mobile friendly, I would say it looks best on Desktop around 1230 x 639 😜
+
+![Connect Four](https://github.com/lesabu/master/assets/connect-four-social.png?raw=true)
