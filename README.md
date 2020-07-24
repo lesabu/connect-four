@@ -35,4 +35,4 @@ We started the assignment on Friday and had a small presentation on the followin
 This is what I have achieved: https://lesabu.github.io/connect-four/
 The game is not really mobile friendly, I would say it looks best on Desktop around 1230 x 639 😜
 
-![Connect Four](https://github.com/lesabu/connect-four/master/assets/connect-four-social.png?raw=true)
+![Connect Four](https://github.com/lesabu/connect-four/blob/master/assets/connect-four-social.png?raw=true)
