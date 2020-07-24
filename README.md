@@ -1,6 +1,6 @@
 # Connect Four
 
-This is a game I built with jQuery. It was an assignment of the bootcamp I attended in August 2018.
+I built this is a game with jQuery. It was an assignment of the bootcamp I attended in August 2018.
 
 ## The Task:
 
