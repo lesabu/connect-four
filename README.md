@@ -36,5 +36,6 @@ This is what I have achieved: https://lesabu.github.io/connect-four/
 The game is not really mobile friendly, I would say it looks best on Desktop around 1230 x 639
 I added this feature where the dots randomly reasign colors after the timer has ended 😜
 
-<a href="https://github.com/lesabu/connect-four/"><img src="https://github.com/lesabu/connect-four/blob/master/assets/connect-four-social.png" width="500"></a>
+
+<a href="https://lesabu.github.io/connect-four/"><img src="https://github.com/lesabu/connect-four/blob/master/assets/connect-four-social.png" width="600"></a>
 
